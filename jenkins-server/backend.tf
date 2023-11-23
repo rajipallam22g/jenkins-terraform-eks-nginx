@@ -1,4 +1,4 @@
-tterraform {
+terraform {
   backend "s3" {
     bucket         = "sayantan-cicd-tf-eks"
     key            = "jenkins/terraform.tfstate"
