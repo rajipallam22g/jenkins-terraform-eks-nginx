@@ -1,6 +1,6 @@
 # This file should be always run before ant other .tf file
 provider "aws" {
-  region = "ap-southeast-1"
+  region = "ap-southeast-2"
 }
 # create s3 bucket
 resource "aws_s3_bucket" "s3_bucket" {
